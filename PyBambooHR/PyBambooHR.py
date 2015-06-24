@@ -164,6 +164,7 @@ class PyBambooHR(object):
             "benefitClassDate": ("date", ""),
             "benefitClassClass": ("list", ""),
             "benefitClassChangeReason": ("list", ""),
+            "PTObalance": ("currency", "The employees Paid Time Off Balance")
         }
 
     def _format_employee_xml(self, employee):
